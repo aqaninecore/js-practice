@@ -10,12 +10,12 @@ let age = 2
 let dogFood = 'junk food'
 
 console.log(dog + " | " + age + " | " + dogFood)
-console .log ('Dog breed is: ' + dog +'. And it likes ' + dogFood)
+console.log('Dog breed is: ' + dog + '. And it likes ' + dogFood)
 
-if (dog => 'Corgi'){
+if (dog => 'Corgi') {
     console.log(chalk.magenta('Cutie'))
 } else {
-    console.log(chalk.prototype("Wolf"))
+    console.log(chalk.gray('Wolf'))
 }
 
 let isCute = true
