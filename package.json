@@ -1,10 +1,10 @@
 {
-  "name": "js-practise",
+  "name": "js-practice",
   "version": "1.0.0",
-  "description": "js-practise",
+  "description": "js-practice",
   "repository": {
     "type": "git",
-    "url": "git@github-personal:aqaninecore/js-practise.git"
+    "url": "git@github-personal:aqaninecore/js-practice.git"
   },
   "license": "ISC",
   "author": "",
