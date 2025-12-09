@@ -1,4 +1,3 @@
-
 // let string1 = "Hello"
 // let string2 = 'World'
 // let string3 = `!`
