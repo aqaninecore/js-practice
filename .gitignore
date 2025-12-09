@@ -1,2 +1,6 @@
 node_modules
 main.js
+numbers.js
+operator.js
+strings.js
+types.js
