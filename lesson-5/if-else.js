@@ -131,6 +131,6 @@
 // }
 
 
-let age = 17
-let message = age >=18 ? "Access granted" : "Access denied" // check  true/false
-console.log(message)
+// let age = 17
+// let message = age >=18 ? "Access granted" : "Access denied" // check  true/false
+// console.log(message)
