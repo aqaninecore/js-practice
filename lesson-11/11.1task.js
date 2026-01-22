@@ -1,7 +1,7 @@
 const checkDelay = (text, milliseconds) => {
-    setTimeout(() => {
-        console.log(text)
-    }, milliseconds)
+	setTimeout(() => {
+		console.log(text)
+	}, milliseconds)
 }
 
 checkDelay('Hello after 2 seconds', 2000)

@@ -1,20 +1,28 @@
 {
-  "name": "js-practice",
-  "version": "1.0.0",
-  "description": "js-practice",
-  "repository": {
-    "type": "git",
-    "url": "git@github-personal:aqaninecore/js-practice.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "module",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "chalk": "^5.6.2"
-  },
-  "devDependencies": {}
+	"name": "js-practice",
+	"version": "1.0.0",
+	"description": "js-practice",
+	"repository": {
+		"type": "git",
+		"url": "git@github-personal:aqaninecore/js-practice.git"
+	},
+	"license": "ISC",
+	"author": "",
+	"type": "module",
+	"main": "main.js",
+	"scripts": {
+		"prepare": "husky",
+		"eslint:fix": "npx eslint ./lesson-12/test-formatting.js",
+		"prettier:fix": "npx prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md,html}\""
+	},
+	"dependencies": {
+		"chalk": "^5.6.2"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.39.2",
+		"eslint": "^9.39.2",
+		"globals": "^17.0.0",
+		"husky": "^9.1.7",
+		"prettier": "3.8.0"
+	}
 }

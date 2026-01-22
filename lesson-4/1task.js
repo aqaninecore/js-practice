@@ -6,13 +6,12 @@ import chalk from 'chalk'
 
 let user = 'User1 Tester'
 let welcome = 'Hello'
-console.log(chalk.gray(welcome , user))
+console.log(chalk.gray(welcome, user))
 welcome = 'Hi'
 console.log(`${welcome}, ${user}!`)
 console.log(chalk.yellow(user[3], welcome[1]))
 console.log(chalk.redBright(user.length))
 console.log(chalk.bgBlue(typeof user))
-
 
 // ////////////////////////////////////////////////////// Number
 
@@ -45,10 +44,9 @@ let value = 129.12984562
 let roundedFloor = Math.floor(value)
 console.log(roundedFloor) // -> 129
 
-console.log((Math.PI).toFixed(5)) // lib Math
+console.log(Math.PI.toFixed(5)) // lib Math
 console.log(Math.pow(9, 10)) // lib Math (raising to a power)
 console.log(chalk.bgBlue(typeof value))
-
 
 // ////////////////////////////////////////////////////// Boolean
 
@@ -59,10 +57,10 @@ console.log(chalk.bgBlue(typeof isActive))
 
 // Let
 let isOnline = false
-console.log(isOnline? 'Online' : 'Offline & sleeping')
+console.log(isOnline ? 'Online' : 'Offline & sleeping')
 
 isOnline = true
-console.log(isOnline? 'Online & watching a movie' : 'Offline')
+console.log(isOnline ? 'Online & watching a movie' : 'Offline')
 console.log(chalk.bgBlue(typeof isOnline))
 
 // ////////////////////////////////////////////////////// Null
@@ -71,18 +69,17 @@ let userAge = null
 console.log(userAge)
 console.log(chalk.bgBlue(typeof userAge)) // bug in JS - shows object (info from AI)
 
-let sessionId = { id: 3, title: 'Learn null' };
-console.log(sessionId.title); // -> 'Learn null'
+let sessionId = {id: 3, title: 'Learn null'}
+console.log(sessionId.title) // -> 'Learn null'
 
-let newSessionId = null;
-console.log(newSessionId); // -> null
-
+let newSessionId = null
+console.log(newSessionId) // -> null
 
 // ////////////////////////////////////////////////////// Undefined
 
-let userScore;
-console.log(userScore); // -> undefined
-console.log(chalk.bgBlue(typeof userScore)); // -> undefined
+let userScore
+console.log(userScore) // -> undefined
+console.log(chalk.bgBlue(typeof userScore)) // -> undefined
 
-userScore = 55;
-console.log(userScore); // -> 55
+userScore = 55
+console.log(userScore) // -> 55

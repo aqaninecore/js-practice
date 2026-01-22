@@ -1,5 +1,5 @@
-import { Book } from './Book.js'
-import { EBook } from './EBook.js'
+import {Book} from './Book.js'
+import {EBook} from './EBook.js'
 
 // ===== Book instances =====
 const book1 = new Book('Kobzar', 'Taras Shevchenko', 1840)

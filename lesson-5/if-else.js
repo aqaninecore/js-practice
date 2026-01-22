@@ -8,7 +8,6 @@
 //     console.log("x is equal to 5")
 // }
 
-
 // if (x > 5) {
 //     console.log("x is greater than 5")
 //     if (x < 50) {
@@ -67,13 +66,11 @@
 //     console.log("You can buy candy")
 // }
 
-
 // let isSleep = false
 
 // if (!isSleep) {
 //     console.log("Person not sleeping!")
 // }
-
 
 // console.log(!!true)
 // console.log(!!0)
@@ -83,7 +80,6 @@
 // console.log(!!null)
 // console.log(!!undefined)
 // console.log(!!NaN)
-
 
 // const digitA = -15
 // const digitB = -10
@@ -96,8 +92,6 @@
 // else {
 //     console.log("At least one number is not positive")
 // }
-
-
 
 // let age = 60
 
@@ -116,7 +110,6 @@
 //     console.log("You are too young/adult")
 // }
 
-
 // const digitA = 4
 // const digitB = -5
 
@@ -129,7 +122,6 @@
 // else {
 //     console.log("At least one number is not positive")
 // }
-
 
 // let age = 17
 // let message = age >=18 ? "Access granted" : "Access denied" // check  true/false

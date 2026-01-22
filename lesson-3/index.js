@@ -1,6 +1,14 @@
 import chalk from 'chalk'
 
-console.log(chalk.yellow(chalk.italic(chalk.bold('Hi Mr. Teacher! There are below some test attempts with JS! Check it out'))))
+console.log(
+	chalk.yellow(
+		chalk.italic(
+			chalk.bold(
+				'Hi Mr. Teacher! There are below some test attempts with JS! Check it out',
+			),
+		),
+	),
+)
 
 // variables
 const dog = 'Corgi'
@@ -9,13 +17,13 @@ const sad = 'Sad'
 let age = 2
 let dogFood = 'junk food'
 
-console.log(dog + " | " + age + " | " + dogFood)
+console.log(dog + ' | ' + age + ' | ' + dogFood)
 console.log('Dog breed is: ' + dog + '. And it likes ' + dogFood)
 
-if (dog => 'Corgi') {
-    console.log(chalk.magenta('Cutie'))
+if ((dog) => 'Corgi') {
+	console.log(chalk.magenta('Cutie'))
 } else {
-    console.log(chalk.gray('Wolf'))
+	console.log(chalk.gray('Wolf'))
 }
 
 let isCute = true

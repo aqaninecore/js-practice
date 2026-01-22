@@ -4,14 +4,14 @@ let positiveCount = 0
 let negativeCount = 0
 let zeroCount = 0
 
-numbers.forEach(num => {
-    if (num > 0) {
-        positiveCount++;
-    } else if (num < 0) {
-        negativeCount++;
-    } else {
-        zeroCount++;
-    }
+numbers.forEach((num) => {
+	if (num > 0) {
+		positiveCount++
+	} else if (num < 0) {
+		negativeCount++
+	} else {
+		zeroCount++
+	}
 })
 
 console.log('Positive numbers:', positiveCount)

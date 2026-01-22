@@ -24,7 +24,9 @@ console.log(chalk.green(`This is a rounded area of the circle: ${circleArea}`))
 const length = 7.5
 const width = 12.159
 const rectangleArea = (length * width).toFixed(2)
-console.log(chalk.blue(`This is a rounded area of the rectangle: ${rectangleArea}`))
+console.log(
+	chalk.blue(`This is a rounded area of the rectangle: ${rectangleArea}`),
+)
 
 ////////////////////////////////////////////////////////
 
@@ -32,4 +34,6 @@ console.log(chalk.blue(`This is a rounded area of the rectangle: ${rectangleArea
 const cylRadius = 15.5
 const cylHeight = 32.3
 const cylVolume = (Math.PI * Math.pow(cylRadius, 2) * cylHeight).toFixed(2)
-console.log(chalk.cyanBright(`This is a rounded volume of the cylinder: ${cylVolume}`))
+console.log(
+	chalk.cyanBright(`This is a rounded volume of the cylinder: ${cylVolume}`),
+)

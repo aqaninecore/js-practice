@@ -2,11 +2,9 @@
 //     console.log('Iteration number: ' + i)
 // }
 
-
 // for (let i = 0; i < 10; i++) {
 //     console.log(i)
 // }
-
 
 // for (let i= -7; i <= 15; i++) {
 //     if (i % 2 === 0) {
@@ -14,16 +12,13 @@
 //     }
 // }
 
-
 // for (let i = 0; i < 11; i+=5) {
 //     console.log(i)
 // }
 
-
 // for (let i = 47; i > 10; i--) {
 //     console.log(i)
 // }
-
 
 // for (let i = 0; i <= 10; i++) {
 //     if (i === 5) {
@@ -32,15 +27,12 @@
 //     console.log(i)
 // }
 
-
-
 // for (let i = 0; i <= 10; i++) {
 //     if (i === 3 || i === 5) {
 //         continue
 //     }
 //     console.log(i)
 // }
-
 
 // for (let a = 0, b = 0; a <10 && b < 10; a++, b+=2) {
 //     console.log('a: ${a}, b: ${b}')
@@ -51,7 +43,6 @@
 //     console.log(i)
 //     i++
 // }
-
 
 // for (let i = 0; i < 10; i++) {
 //     console.log(i)
@@ -64,14 +55,12 @@
 //     i++
 // } while (i < 10)
 
-
 // let userInput = 'Test string'
 // let vowelCount = 0
 
 // for (let i = 0; i < userInput.length; i++) {
 //     console.log(userInput[i])
 // }
-
 
 // let userInput = 'Test string'
 // let vowelCount = 5
@@ -86,7 +75,6 @@
 // }
 
 // console.log('Total vowels: ${vowelCount}')
-
 
 // let userInput = 'Test string'
 // const vowels = "aeuoiAEUOI"
@@ -103,7 +91,6 @@
 // }
 
 // console.log(`Total vowels: ${vowelCount}`)
-
 
 // Passenger should have enough founds on bank account
 // Passenger should be older than 18

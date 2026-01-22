@@ -14,7 +14,6 @@
 //         console.log("Unknown fruit")
 // }
 
-
 // let fruit = 'potato'
 
 // switch (fruit) {
@@ -31,15 +30,14 @@
 //         console.log("Unknown fruit")
 // }
 
-
 let digit = 60
 switch (true) {
-    case digit > 50:
-        console.log(">50")
-        break
-    case digit > 20:
-        console.log(">20")
-        break
-    default:
-        console.log("<=20")
+	case digit > 50:
+		console.log('>50')
+		break
+	case digit > 20:
+		console.log('>20')
+		break
+	default:
+		console.log('<=20')
 }

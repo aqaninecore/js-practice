@@ -1,31 +1,31 @@
 function fetchTodo() {
-    return fetch('https://jsonplaceholder.typicode.com/todos/2')
-        .then(response => response.json())
-        .catch(error => console.log('Error fetching todo:', error))
+	return fetch('https://jsonplaceholder.typicode.com/todos/2')
+		.then((response) => response.json())
+		.catch((error) => console.log('Error fetching todo:', error))
 }
 
 function fetchUser() {
-    return fetch('https://jsonplaceholder.typicode.com/users/2')
-        .then(response => response.json())
-        .catch(error => console.log('Error fetching user:', error))
+	return fetch('https://jsonplaceholder.typicode.com/users/2')
+		.then((response) => response.json())
+		.catch((error) => console.log('Error fetching user:', error))
 }
 
 const allPromise = Promise.all([fetchTodo(), fetchUser()])
 
-allPromise.then(results => {
-    const todo = results[0]
-    const user = results[1]
+allPromise.then((results) => {
+	const todo = results[0]
+	const user = results[1]
 
-    console.log('Promise.all results:')
-    console.log('Todo:', todo)
-    console.log('User:', user)
+	console.log('Promise.all results:')
+	console.log('Todo:', todo)
+	console.log('User:', user)
 })
 
 const racePromise = Promise.race([fetchTodo(), fetchUser()])
 
-racePromise.then(result => {
-    console.log('Promise.race result:')
-    console.log(result)
+racePromise.then((result) => {
+	console.log('Promise.race result:')
+	console.log(result)
 })
 
 // const allPromise = Promise.all([fetchTodo(), fetchUser()])
